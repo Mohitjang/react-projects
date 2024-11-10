@@ -1,0 +1,41 @@
+=============================================
+Folder Structure:- 
+=============================================
+Inside src:
+1. components
+    -> Navbar
+        Navbar.jsx
+        Navbar.css
+    -> TitleCards
+        -> TitleCards.jsx
+        -> TitleCards.css
+    -> Footer
+        -> Footer.jsx
+        -> Footer.css
+2. pages
+    -> Home
+        -> Home.jsx (import "./Home.css")
+        -> Home.css
+    -> Login
+        -> Login.jsx
+        -> Login.css
+    -> Player
+        -> Player.jsx
+        -> Player.css
+
+==============================================
+React Component Structure:- 
+==============================================
+
+-> App.jsx (in this file we will render all the pages using react-router)
+    # All Pages
+    <Home />
+    <Login />
+
+-> Pages.jsx (for example:- Home.jsx)
+    # Needed components
+    <Navbar />
+    <TitleCards />
+    <Footer />
+
+==============================================

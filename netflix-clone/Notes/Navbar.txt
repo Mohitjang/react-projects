@@ -1,0 +1,30 @@
+Structure:-
+
+.Navbar
+    .Navbar-left
+        image-logo
+        ul
+            li 
+                Menu
+                Home
+                Movies
+                etc
+    .Navbar-right
+        img-search-icon
+        children
+        img-bell-icon
+        .Navbar-profile
+            img-profile-icon
+            img-caret-icon (dropdown)
+
+
+styles:-
+
+.Navbar
+.Navbar-left
+.Navbar-right
+.Navbar-right .icons
+.Navbar-right .profile
+
+
+till:- 01:12 MM

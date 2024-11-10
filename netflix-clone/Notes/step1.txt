@@ -1,0 +1,11 @@
+setup:- 
+1. create react app
+2. clear all boiler code provided by react
+3. delete app.css,  react.svg, vite.svg.
+4. rewrite the title
+5. index.css clear all code
+
+Starting:-
+1. put all images and svg in assets or public folder
+2. change icon and title of website
+3. write global styles for all the elements
