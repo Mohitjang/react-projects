@@ -1,6 +1,9 @@
 import React from "react";
-import "./Home.css"
+import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
+import TitleCards from "../../components/TitleCard/TitleCards";
+import Footer from "../../components/Footer/Footer";
+
 import hero_banner from "../../assets/hero_banner.jpg";
 import hero_title from "../../assets/hero_title.png";
 import play_icon from "../../assets/play_icon.png";
@@ -20,19 +23,27 @@ const Home = () => {
             corporis magni quos necessitatibus amet vero, in veniam fugiat
             voluptatem temporibus maiores! Dolore consequuntur inventore
             recusandae!
-          </p> 
+          </p>
           <div className="hero-btns">
             <button className="btn">
               <img src={play_icon} alt="" />
-                Play
+              Play
             </button>
             <button className="btn dark-btn">
               <img src={info_icon} alt="" />
-                More Info
+              More Info
             </button>
           </div>
+          <TitleCards />
         </div>
       </div>
+      <div className="more-cards">
+        <TitleCards title="Blockbuster Movies" />
+        <TitleCards title="Only on Netflix" />
+        <TitleCards title="Upcoming" />
+        <TitleCards title="Top Picks for You" />
+      </div>
+      <Footer />
     </div>
   );
 };
